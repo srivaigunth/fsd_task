@@ -1,0 +1,134 @@
+/* General Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    color: #e0e0e0; /* Lighter text for better contrast */
+    padding-top: 50px; /* Add space from the top */
+  }
+  
+  /* Form Container */
+  .form-container {
+    background-color: #1e1e1e; /* Dark form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 150%; /* Width increased to 150% */
+    max-width: none; /* Removed max-width */
+    margin: 0 auto; /* Center the form */
+    border: 1px solid #333; /* Dark border */
+    transform: translateX(-25%); /* Shift the form to the left by 25% to center it */
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #ffffff; /* Light text color for heading */
+  }
+  
+  /* Form Elements */
+  .form-element {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #ccc; /* Light gray text for labels */
+    margin-bottom: 5px;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555; /* Darker border for inputs */
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: #2c2c2c; /* Dark background for inputs */
+    color: #fff; /* White text for inputs */
+  }
+  
+  input[type="date"] {
+    background-color: #2c2c2c; /* Same dark background for date input */
+    color: #fff;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, select:focus, button:focus {
+    border-color: #3498db; /* Focus color for inputs and button */
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #3498db; /* Blue background for submit button */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Reset Button */
+  .reset-btn {
+    background-color: #e74c3c; /* Red for reset button */
+    margin-top: 10px;
+  }
+  
+  .reset-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Validation Messages */
+  .error {
+    color: #e74c3c; /* Red for error messages */
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .success {
+    color: #2ecc71; /* Green for success messages */
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Employee List Styling */
+  .employee-list {
+    background-color: #1e1e1e; /* Dark background for the employee list */
+    color: #fff; /* Light text */
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .employee-list h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .employee-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .employee-list li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .employee-list li:last-child {
+    border-bottom: none;
+  }
+  
